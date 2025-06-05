@@ -15,11 +15,11 @@
 #define TEMPERATURE_UNITS 'C' // Set to 'F' for Fahrenheit
 #endif
 
-#define WIFI_SSID "Cosmo"                  // Substitua pelo nome da sua rede Wi-Fi
-#define WIFI_PASSWORD "Gcosmo94"      // Substitua pela senha da sua rede Wi-Fi
-#define MQTT_SERVER "192.168.0.105"                // Substitua pelo endereço do host - broket MQTT: Ex: 192.168.1.107
-#define MQTT_USERNAME "cosmo"     // Substitua pelo nome da host MQTT - Username
-#define MQTT_PASSWORD "12345"     // Substitua pelo Password da host MQTT - credencial de acesso - caso exista
+#define WIFI_SSID "MY_SSID"                  // Substitua pelo nome da sua rede Wi-Fi
+#define WIFI_PASSWORD "MY_PASSWORD"      // Substitua pela senha da sua rede Wi-Fi
+#define MQTT_SERVER "SERVER_IP"                // Substitua pelo endereço do host - broket MQTT: Ex: 192.168.1.107
+#define MQTT_USERNAME "MY_USER"     // Substitua pelo nome da host MQTT - Username
+#define MQTT_PASSWORD "MY_MQTT_PASS"     // Substitua pelo Password da host MQTT - credencial de acesso - caso exista
 
 #ifndef MQTT_SERVER
 #error Need to define MQTT_SERVER
